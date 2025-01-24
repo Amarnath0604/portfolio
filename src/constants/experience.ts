@@ -1,26 +1,27 @@
 import { WorkExperienceType } from "src/types";
 import zedlogo from "../images/zed-icon.svg";
+import Closerlogo from "../images/closerlook-logo.svg";
 
 export const workExperience: WorkExperienceType[] = [
   {
     title: "Senior Web developer",
-    company: "ZED Digital",
+    company: "Closerlook Digital",
     location: "Coimbatore, Tamil Nadu",
     duration: "June 2023 - Present",
-    logo: zedlogo,
+    logo: Closerlogo,
   },
   {
     title: "Web Developer",
-    company: "ZED Digital",
+    company: "Closerlook Digital",
     location: "Coimbatore, Tamil Nadu",
     duration: "May 2022 - May 2023",
-    logo: zedlogo,
+    logo: Closerlogo,
   },
   {
     title: "Web Developer Intern",
-    company: "ZED Digital",
+    company: "Closerlook Digital",
     location: "Coimbatore, Tamil Nadu",
     duration: "Oct 2021 - Apr 2022",
-    logo: zedlogo,
+    logo: Closerlogo,
   },
 ];

@@ -18,7 +18,7 @@ export const AboutMe: FC<IAboutMeProps> = () => {
         </SubText>
         <Grid cols={2} colWidth="max-content" placeItems="center" gap="20px" override>
           <MailButton
-            href="https://drive.google.com/file/d/1AGYrVKloLLIupfafSIB7eaZ_Jz6qkAhF/view"
+            href="https://drive.google.com/file/d/1Z2_Pt_oU2kDP0GA8rDqaOXAQraOWhVN9/view?usp=sharing"
             target="_blank"
             title="View Resume"
           >

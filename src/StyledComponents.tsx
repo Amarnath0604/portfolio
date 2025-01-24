@@ -276,8 +276,8 @@ export const Icon = styled.img<{ removeFilter?: boolean }>`
 
 export const ExperienceIcon = styled.img`
   object-fit: cover;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Card = styled.div<{ hoverable?: boolean }>`

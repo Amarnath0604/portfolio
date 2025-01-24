@@ -15,8 +15,8 @@ export const LeftContent: FC<ILeftContentProps> = () => {
         <SC.Text style={{ color: "rgba(255, 255, 255, 0.5)" }}>
           As a front-end developer specialized in creating responsive web applications with rich digital experiences. I
           am currently working with{" "}
-          <SC.LinkText href="https://zed.digital/" target="_blank" title="Visit ZED Digital">
-            ZED Digital
+          <SC.LinkText href="http://closerlookdigitalsoftware.com/" target="_blank" title="Visit Closerlook Digital">
+            Closerlook Digital Software Services
           </SC.LinkText>{" "}
           and to build interactive websites and admin tool applications using React.js, delivering real-time analytics
           data connected to mobile applications and IoT devices.
