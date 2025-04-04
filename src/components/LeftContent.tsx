@@ -13,10 +13,10 @@ export const LeftContent: FC<ILeftContentProps> = () => {
       </SC.NameContainer>
       <SC.DescContainer>
         <SC.Text style={{ color: "rgba(255, 255, 255, 0.5)" }}>
-          As a front-end developer specialized in creating responsive web applications with rich digital experiences. I
-          am currently working with{" "}
-          <SC.LinkText href="http://closerlookdigitalsoftware.com/" target="_blank" title="Visit Closerlook Digital">
-            Closerlook Digital Software Services
+          As a front-end developer specialized in creating responsive web applications with rich digital experiences, I
+          currently work with{" "}
+          <SC.LinkText href="https://humworld.com/" target="_blank" title="Visit Humworld Solutions" rel="noreferrer">
+            Humworld Solutions
           </SC.LinkText>{" "}
           and to build interactive websites and admin tool applications using React.js, delivering real-time analytics
           data connected to mobile applications and IoT devices.

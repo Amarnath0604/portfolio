@@ -27,7 +27,7 @@ export const Project: FC<IProjectProps> = () => {
     }
 
     setProject(projects[idx]);
-  }, []);
+  }, [slug, history]);
 
   if (!project) {
     return <div>Not found</div>;

@@ -1,4 +1,4 @@
-export type PageType = "about" | "projects" | "experience" | "skills";
+export type PageType = "about" | "projects" | "experience" | "skills" | "education";
 
 export type ChapterType = {
   index: string;
@@ -36,6 +36,13 @@ export type WorkExperienceType = {
   location: string;
   duration: string;
   logo: string;
+};
+
+export type EducationType = {
+  title: string;
+  company: string;
+  location: string;
+  duration: string;
 };
 
 export type SkillType = TechStackType;
