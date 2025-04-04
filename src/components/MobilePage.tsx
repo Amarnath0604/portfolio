@@ -1,6 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import * as SC from "../StyledComponents";
 import { AboutMe, Experience, Projects, Skills } from "src/pages";
+import { Education } from "src/pages/Education";
 
 interface IMobilePageProps {}
 
@@ -24,7 +25,7 @@ export const MobilePage: FC<IMobilePageProps> = () => {
       }
     }
 
-    const headerIds = ["about_header", "projects_header", "exp_header", "skills_header"];
+    const headerIds = ["about_header", "projects_header", "exp_header", "skills_header", "education_header"];
     headerIds.forEach((id) => {
       const el = document.getElementById(id);
       if (el) {
@@ -85,6 +86,14 @@ export const MobilePage: FC<IMobilePageProps> = () => {
           </SC.HeaderText>
         </SC.Header>
         <Skills />
+      </SC.EmptyContainer>
+      <SC.EmptyContainer>
+        <SC.Header width={headerWidth} id="education_header">
+          <SC.HeaderText spacing="4px" className="mb20">
+            EDUCATION
+          </SC.HeaderText>
+        </SC.Header>
+        <Education />
       </SC.EmptyContainer>
     </SC.EmptyContainer>
   );
